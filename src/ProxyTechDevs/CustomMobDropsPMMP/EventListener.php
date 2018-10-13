@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace ProxyTechDevs\CustomMobDropsPMMP;
+namespace ProxyTechDevs\CustomMobDropsPMMP\Main;
 use pocketmine\entity\Human;
 use pocketmine\entity\Living;
 use pocketmine\event\entity\EntityDeathEvent;
