@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace ProxyTechDevs\CustomMobDropsPMMP;
+namespace ProxyTechDevs\CustomMobDropsPMMP\Main;
 
 use pocketmine\item\Item;
 use pocketmine\plugin\PluginBase;
@@ -14,7 +14,7 @@ class Main extends PluginBase{
 	public function onEnable(){
 		@mkdir($this->getDataFolder());
 		$this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML, [
-			"ENTITY ID (GO HERE FOR A LIST OF ENTITY IDs: https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/entity/EntityIds.php)" => [
+			"" => [
 				[
 					"ITEM ID",
 					"DAMAGE",
