@@ -1,0 +1,16 @@
+---
+? 'ENTITY ID (GO HERE FOR A LIST OF ENTITY IDs: https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/entity/EntityIds.php)'
+  - - ITEM ID
+    - DAMAGE
+    - COUNT
+  - - ITEM ID
+    - DAMAGE
+    - COUNT
+0:
+- - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+...
